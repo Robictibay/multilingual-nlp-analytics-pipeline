@@ -21,6 +21,15 @@ This repository contains the code, data, and figures for my final project analyz
 * **Sentiment Analysis (XLM-RoBERTa):** To quantify the "hostility gap" between platforms.
 * **Social Network Analysis:** To map "collective blame" using bigram co-occurrence networks.
 
+## Skills Demonstrated
+- Python-based data cleaning and preprocessing
+- Natural language processing on mixed online discourse
+- Topic modeling using LDA
+- Sentiment analysis using XLM-RoBERTa
+- Social network analysis through bigram co-occurrence
+- Data visualization and interpretation
+- Research writing and presentation
+
 ---
 
 ## 2. Key Deliverables
@@ -43,9 +52,8 @@ The analysis is divided into sequential Jupyter Notebooks found in the `notebook
 To install the required dependencies:
 ```bash
 pip install -r requirements.txt
-```
 
-## 2. Repository Structure
+## 4. Repository Structure
 
 │   README.md.txt
 │   requirements.txt
