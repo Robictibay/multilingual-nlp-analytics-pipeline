@@ -1,0 +1,30 @@
+# Core scientific stack
+numpy
+pandas
+matplotlib
+seaborn
+
+# NLP and topic modeling
+gensim
+spacy
+pyLDAvis
+regex
+nltk
+wordcloud
+
+# Machine learning and utilities
+scikit-learn
+tqdm
+
+# Graph/network analysis
+networkx
+
+# Transformers-based sentiment model (XLM-R)
+transformers
+torch
+sentencepiece
+
+# I/O and notebook support
+jupyter
+notebook
+openpyxl
