@@ -1,8 +1,8 @@
 # Multilingual Public Discourse NLP Analytics Pipeline
 
-**Author:** Rafael Angelo S. Tibayan
-**Course:** CSCI 161 - Social Computing
-**Institution:** Ateneo de Manila University
+**Author:** Rafael Angelo S. Tibayan  
+**Course:** CSCI 161 - Social Computing  
+**Institution:** Ateneo de Manila University  
 
 ---
 
@@ -16,20 +16,21 @@ Some original source URLs may no longer be active or viewable. However, the proc
 
 This repository contains an end-to-end NLP analytics pipeline for analyzing multilingual public discourse from online comments and news articles.
 
-The pipeline analyzes 6,830 public text documents and produces reusable processed datasets, model outputs, and visual reports.
-
 The project demonstrates data collection, text preprocessing, topic modeling, sentiment classification, network analysis, and visualization. It was originally developed as a Social Computing final project and uses Philippine public discourse data as the case study.
 
 **Objective:** To identify major discussion themes, sentiment patterns, and platform-level differences across online text data.
 
 **Methodology:**
-* **Data Cleaning and Preprocessing:** Structured raw text into reusable cleaned datasets and analysis-ready artifacts.
-* **Topic Modeling (LDA):** Identified recurring themes and discussion clusters in the corpus.
-* **Sentiment Analysis (XLM-RoBERTa):** Classified multilingual sentiment patterns across platforms.
-* **Network Analysis:** Built bigram co-occurrence networks to surface important terms and relationships.
-* **Data Visualization:** Generated figures and summary outputs for interpretation and reporting.
+- **Data Cleaning and Preprocessing:** Structured raw text into reusable cleaned datasets and analysis-ready artifacts.
+- **Topic Modeling (LDA):** Identified recurring themes and discussion clusters in the corpus.
+- **Sentiment Analysis (XLM-RoBERTa):** Classified multilingual sentiment patterns across platforms.
+- **Network Analysis:** Built bigram co-occurrence networks to surface important terms and relationships.
+- **Data Visualization:** Generated figures and summary outputs for interpretation and reporting.
 
-## Skills Demonstrated
+---
+
+## 2. Skills Demonstrated
+
 - Python-based data cleaning and preprocessing
 - Natural language processing on mixed online discourse
 - Topic modeling using LDA
@@ -38,7 +39,10 @@ The project demonstrates data collection, text preprocessing, topic modeling, se
 - Data visualization and interpretation
 - Research writing and presentation
 
-## Technologies Used
+---
+
+## 3. Technologies Used
+
 - Python
 - Jupyter Notebook
 - Pandas
@@ -50,31 +54,38 @@ The project demonstrates data collection, text preprocessing, topic modeling, se
 
 ---
 
-## 2. Key Deliverables
+## 4. Key Deliverables
+
 **[Tibayan_FinalPaper_CSCI161.pdf](./Tibayan_FinalPaper_CSCI161.pdf)** - The final research paper.
 
 **[Tibayan_FinalProjectPresentation.pdf](./Tibayan_FinalProjectPresentation.pdf)** - The presentation slides.
 
 ---
 
-## 3. How to Run the Code
+## 5. How to Run the Code
+
 The analysis is divided into sequential Jupyter Notebooks found in the `notebooks/` folder. Run them in this order:
 
-1. **`01_NLP_Data_Collection_Flood.ipynb`**: Data ingestion and formatting.
-2. **`02_Preprocessing_and_EDA_Flood.ipynb`**: Cleaning, tokenization, and exploratory analysis.
-3. **`03_topic_modeling_aggregated.ipynb`**: LDA topic modeling on the full corpus.
-    * *(Optional)* **`03B_topic_modeling_balanced.ipynb`**: Balanced modeling experiment.
-4. **`04_sentiment_analysis.ipynb`**: XLM-RoBERTa sentiment classification.
-5. **`05_Final_Merge_Interpretation.ipynb`**: Merging outputs, network analysis, and final visualizations.
+1. **`01_NLP_Data_Collection_Flood.ipynb`** - Data ingestion and formatting.
+2. **`02_Preprocessing_and_EDA_Flood.ipynb`** - Cleaning, tokenization, and exploratory analysis.
+3. **`03_topic_modeling_aggregated.ipynb`** - LDA topic modeling on the full corpus.
+   - Optional: **`03B_topic_modeling_balanced.ipynb`** - Balanced modeling experiment.
+4. **`04_sentiment_analysis.ipynb`** - XLM-RoBERTa sentiment classification.
+5. **`05_Final_Merge_Interpretation.ipynb`** - Merging outputs, network analysis, and final visualizations.
 
 ### Installation
+
 To install the required dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-## 4. Repository Structure
+---
 
+## 6. Repository Structure
+
+```text
 │   README.md
 │   requirements.txt
 │   Tibayan_FinalPaper_CSCI161.pdf
@@ -159,3 +170,4 @@ pip install -r requirements.txt
         03_topic_modeling_aggregated.ipynb
         04_sentiment_analysis.ipynb
         05_Final_Merge_Interpretation.ipynb
+```
